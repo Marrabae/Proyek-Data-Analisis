@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('dashboard\df_final.csv')
+file_loc = "https://raw.githubusercontent.com/Marrabae/Proyek-Data-Analisis/master/dashboard/df_final.csv"
+
+df = pd.read_csv(file_loc)
 
 st.set_page_config(layout='wide', initial_sidebar_state = 'expanded')
 
@@ -113,3 +115,5 @@ st.write("""
 """
 
 )
+
+st.caption('Copyright (C) Abdurrahman Al-Adalah - 2024')

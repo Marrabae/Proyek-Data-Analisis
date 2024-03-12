@@ -21,3 +21,4 @@ It will opens web browser and select the .ipynb file
 ## Open Streamlit app
 Open the cloned directory on code editor, then on the terminal:
 ``` streamlit run dashboard.py ```
+![Streamlit App](Screenshot.png)

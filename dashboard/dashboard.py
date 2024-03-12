@@ -41,7 +41,7 @@ def plot_donut_chart(data, title):
 # Sidebar
 with st.sidebar:
     st.title('Analisis Data \n Listmerce')
-    st.image('Logo.png')
+    st.image('dashboard/Logo.png')
     st.write('Nama\t: Abdurrahman Al-Adalah')
     st.write('Email\t: adilaladalah@gmail.com')
     st.write('ID Dicoding\t: marrabae')
